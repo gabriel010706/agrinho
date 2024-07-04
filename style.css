@@ -1,0 +1,59 @@
+/* Reset padrão para garantir consistência */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos para o corpo do site */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Cor de fundo geral */
+    color: #333; /* Cor do texto principal */
+}
+
+/* Estilos para cabeçalhos (títulos) */
+h1, h2, h3 {
+    color: #007bff; /* Cor azul para títulos */
+}
+
+/* Estilos para links */
+a {
+    color: #007bff; /* Cor azul para links */
+    text-decoration: none; /* Remove sublinhado padrão */
+}
+
+a:hover {
+    text-decoration: underline; /* Sublinhado ao passar o mouse */
+}
+
+/* Estilos para botões */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* Cor de fundo para botões */
+    color: #fff; /* Cor do texto nos botões */
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #0056b3; /* Cor de fundo ao passar o mouse */
+}
+
+/* Estilos para seções principais */
+.section {
+    padding: 20px;
+    background-color: #fff; /* Cor de fundo das seções */
+    margin-bottom: 20px;
+    border: 1px solid #ddd; /* Borda fina para separação */
+}
+
+/* Estilos para rodapé */
+footer {
+    background-color: #333; /* Cor de fundo do rodapé */
+    color: #fff; /* Cor do texto no rodapé */
+    padding: 10px 0;
+    text-align: center;
+}
