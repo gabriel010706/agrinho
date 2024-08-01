@@ -3,58 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agrinho - Educação Rural</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Agrinho - Portal de Informações</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            margin: 1em 0;
+        }
+        nav a {
+            margin: 0 1em;
+            text-decoration: none;
+            color: #4CAF50;
+        }
+        main {
+            padding: 1em;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
 </head>
 <body>
-
     <header>
-        <div class="logo">
-            <img src="" alt="tt.jpg">
-            <h1>Agrinho</h1>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="#">Página Inicial</a></li>
-                <li><a href="#">Sobre o Agrinho</a></li>
-                <li><a href="#">Projetos</a></li>
-                <li><a href="#">Contato</a></li>
-            </ul>
-        </nav>
+        <h1>Bem-vindo ao Agrinho</h1>
+        <p>O seu portal de informações sobre o Agrinho!</p>
     </header>
 
+    <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#programas">Programas</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
     <main>
-        <section class="banner">
-            <h2>Bem-vindo ao Agrinho</h2>
-            <p>O Agrinho é um programa educacional que promove o conhecimento sobre agricultura, meio ambiente e sustentabilidade.</p>
-            <a href="#" class="button">Saiba mais</a>
+        <section id="sobre">
+            <h2>Sobre o Agrinho</h2>
+            <p>O Agrinho é um projeto que visa promover a educação e a conscientização sobre práticas agrícolas sustentáveis e inovação no campo. Nosso objetivo é fornecer informações e recursos para agricultores e interessados em agricultura.</p>
         </section>
 
-        <section class="section">
-            <h2>Projetos em Destaque</h2>
-            <div class="project">
-                <img src="lula.png" alt="Projeto 1">
-                <h3>Projeto de Horta Escolar</h3>
-                <p>Estimula o cultivo de alimentos saudáveis e educativos nas escolas.</p>
-            </div>
-            <div class="project">
-                <img src=" alt="tt.jpg"Projeto 2">
-                <h3>Reciclagem na Comunidade</h3>
-                <p>Promove a conscientização ambiental através da reciclagem de materiais.</p>
-            </div>
+        <section id="programas">
+            <h2>Programas</h2>
+            <ul>
+                <li>Educação Ambiental</li>
+                <li>Inovação em Agricultura</li>
+                <li>Gestão Sustentável</li>
+            </ul>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Para mais informações, entre em contato conosco pelo e-mail: <a href="mailto:contato@agrinho.org">contato@agrinho.org</a>.</p>
         </section>
     </main>
 
     <footer>
-        <div class="footer-content">
-            <p>&copy; 2024 Agrinho - Programa de Educação Rural</p>
-            <ul class="social-links">
-                <li><a href="#" target="_blank" rel="noopener noreferrer">Facebook</a></li>
-                <li><a href="#" target="_blank" rel="noopener noreferrer">Instagram</a></li>
-                <li><a href="#" target="_blank" rel="noopener noreferrer">Twitter</a></li>
-            </ul>
-        </div>
+        <p>&copy; 2024 Agrinho. Todos os direitos reservados.</p>
     </footer>
-
 </body>
 </html>
